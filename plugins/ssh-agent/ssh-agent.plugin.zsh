@@ -29,7 +29,7 @@
 
 local _plugin__ssh_env
 local _plugin__forwarding
-
+# ssh_argment = $(history|grep ^ssh|sort -k 2|uniq -s7)
 function _plugin__start_agent()
 {
   local -a identities
